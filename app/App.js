@@ -1,5 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+<<<<<<< HEAD:App.js
+=======
+import AIChatApp from './screens/AIChatApp';
+>>>>>>> 42efd4e (seperation of Screens and Components):app/App.js
 
 export default function App() {
   return (

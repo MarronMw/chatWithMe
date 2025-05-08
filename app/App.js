@@ -1,24 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-<<<<<<< HEAD:App.js
-=======
-import AIChatApp from './screens/AIChatApp';
->>>>>>> 42efd4e (seperation of Screens and Components):app/App.js
+import { StatusBar, StyleSheet, Text, View } from "react-native";
+import AIChatApp from "./screens/AIChatApp";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <AIChatApp />;
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });

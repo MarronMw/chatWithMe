@@ -107,8 +107,8 @@ const AIChatApp = () => {
   const handleReadAloud = (text) => {
     setIsSpeaking(true);
     Speech.speak(text, {
-      rate: 0.9,
-      pitch: 1.1,
+      rate: 1,
+      pitch: 1,
       onDone: () => setIsSpeaking(false),
       onStopped: () => setIsSpeaking(false),
       onError: () => setIsSpeaking(false),
